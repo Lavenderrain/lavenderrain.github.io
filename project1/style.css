@@ -1,0 +1,136 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica;
+}
+
+#container{
+    width: 550px;
+    height: 500px;
+    background-color: black;
+    margin: auto  10px 10px ;
+    box-shadow: 0 0 3px #999;
+}
+
+#container_body{
+	padding: 20px;
+}
+
+.form_title{
+	font-size: 35px;
+	color: #99a2a7;
+	text-align: center;
+	padding: 10px;
+	font-weight: normal;
+}
+
+.head_para {
+    font-size: 19px;
+    color: #99a2a7;
+    text-align: center;
+    font-weight: normal;
+}
+
+#form_name{
+	padding: 25px 0 0 15px;
+}
+
+.firstnameorlastname{
+	margin-right: 20px;
+}
+
+.input_name{
+	width: 207px;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+#email_form{
+	clear: both;
+	padding: 15px 0 10px 0px;
+}
+
+.input_email{
+	width: 434px;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+#RE_email_form{
+	padding: 10px 0 10px 0px
+}
+
+.input_RE_email{
+	width: 434px;
+	padding: 5px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+#password_form{
+    padding:10px 0 10px 0px;
+ }
+
+.input_password{
+   width:434px;
+   padding:5px;
+   font-size:18px;
+   border-radius: 5px;
+ }
+
+
+.birthday_title{
+	font-size: 16px;
+	color: #8b919d;
+	font-weight: normal;
+	padding: 0 0 10px 0;
+}
+
+select{
+	padding: 5px;
+}
+
+#birthday{
+	font-size: 12px;
+	color: #8b919d;
+	padding-top: 10px;
+}
+
+#word {
+    margin: -28px 175px 0px 209px;
+    color: gray;
+}
+
+#radio_button {
+    margin: 10px 0px 0px -184px;
+    padding: 10px 0 0 0;
+}
+
+#sign_user {
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    background-color: #3B5998;
+    padding: 12px;
+    margin: 30px 80px 0px -72px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#errorBox{
+	color: #F00;
+}
+
+
+
+
+
+
+

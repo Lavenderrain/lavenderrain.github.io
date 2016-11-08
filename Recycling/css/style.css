@@ -630,12 +630,12 @@ select {
 .footer {
     text-align: center;
     background: #0d6693;
-    margin-top: 30px;
-    height: 250px;
+    margin: 381px 0px 0px 0px;
+    height: 94px;
 }
 
 h10,h11 {
   
   text-align: center;
-  font-size: 35px;
+  font-size: 22px;
 }

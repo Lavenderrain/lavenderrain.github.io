@@ -634,8 +634,7 @@ select {
     height: 94px;
 }
 
-h10,h11 {
-  
-  text-align: center;
-  font-size: 22px;
+h10, h11 {
+    text-align: center;
+    font-size: 22px;
 }

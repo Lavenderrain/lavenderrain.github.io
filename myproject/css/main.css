@@ -1,0 +1,500 @@
+ body {
+ 	font-family: 'Lato', sans-serif;
+  position: relative;
+  overflow: x hidden;
+ }
+
+ 
+ #home {
+ 	background: url(../imges/homebg.png);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+ 	height: 600px;
+  }
+
+  #home .container {
+  	padding: 200px 0;
+  }
+
+  #home h1 {
+    font-size: 72px;
+    color: #f3f3f3;
+    font-weight: 100;
+    border-top: 1px solid  #f3f3f3;
+    border-bottom: 1px solid  #f3f3f3;
+    display: inline-block;
+    padding-bottom: 20px; 
+  }
+
+
+  #home h3 {
+  	font-size: 24px;
+  	font-weight: 100;
+  	color: #f3f3f3;
+  	margin-bottom: 40px;
+  }
+
+  #home i {
+     font-size: 40px;
+     color: #f3f3f3;   
+  }
+
+ #abouth {
+  background: url(../imges/aboutbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+  }
+
+#abouth .container {
+    padding: 150px 0;
+  }
+
+
+#abouth h3 {
+    font-size: 24px;
+    font-weight: 100;
+    color: #f3f3f3;
+    margin: -8px 0px 0px 0px;
+    border-bottom: 1px solid  #f3f3f3;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+
+#abouth h4 p {
+    font-size: 24px;
+    font-weight: 100;
+    color: #f3f3f3;
+    margin: 20px 30px 0px 180px;
+}
+
+#services {
+    margin: 50px 0px 50px -30px;
+}
+
+  #services  h3 {
+    color: #743b90;
+    font-weight: 100;
+
+  }
+
+  #services .service-title {
+    padding: 50px 0;
+
+  }
+
+  #services i {
+    font-size: 48px;
+    color: #c1c1c1;
+    border-right: 1px solid;
+    padding-right: 20px;
+    float: left;
+
+  }
+  
+  #services h2 {
+    font-weight: 900;
+    font-size: 24px ;
+
+  }
+
+  #services  h4 {
+    color: #ac44ee;
+    margin-top: -10px;
+    font-weight: 300;
+  }
+
+  #services .service-header {
+    margin-top: -20px;
+    padding-left: 80px;
+
+}
+
+  #services .container .coll {
+    padding-bottom: 40px
+  }
+
+
+#skills {
+  background: url(../imges/skillsbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 470px; 
+
+}
+
+#skills .skill-left {
+   padding: 130px 0;
+
+
+}
+
+  #skills h2 {
+    font-weight: 900;
+    font-size: 48px;
+    color:#fff;
+  }
+
+   #skills h3{
+    font-weight: 400;
+    font-size: 24px;
+    color:#fff;
+    padding-bottom: 20px;
+   }
+
+   #skills p {
+     color: #fff;
+     padding-bottom: 20px; 
+     font-weight: 100;
+   }
+
+   #skills .button1 {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+   }
+
+   #skills .button1:hover {
+    color: #c39fda;
+    border-bottom: 3px solid #c39fda;
+   }
+
+   #skills .button2 {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 15px;
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+
+   #skills .button2:hover {
+    color: #c39fda;
+    border-bottom: 3px solid #c39fda;
+   }
+   
+  #skills .skill-right {
+    padding: 100px 0px 0px 100px;
+}
+
+#skills h4 {
+     color: #fff;
+     font-size: 24px;
+  }
+
+#skills .progress {
+  height: 20px;
+  opacity: .75;
+ }
+
+#skills .progress-bar {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#793894+0,8d4563+100 */
+background: #793894; /* Old browsers */
+background: -moz-linear-gradient(left,  #793894 0%, #8d4563 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #793894 0%,#8d4563 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #793894 0%,#8d4563 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#793894', endColorstr='#8d4563',GradientType=1 ); /* IE6-9 */
+
+}
+
+#OurPortfolio h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color:#743b90;
+    padding-bottom: 20px;
+   }
+
+  #OurPortfolio .col-md-4 {
+    padding: 0px;
+
+  }
+
+  #OurPortfolio .portfolio-thumb {
+    height: 270px;
+    max-width: 390px;
+    overflow: hidden;
+    padding: 0;
+    margin:0 auto;
+  }
+
+   #OurPortfolio .portfolio-thumb img {
+    width: 100%;
+    height: 100%;
+   }
+
+   #OurPortfolio .portfolio-overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+    background-color:#8d4563; 
+    opacity: 0;
+
+    text-align: center;
+    padding: 100px 0; 
+   }
+
+#OurPortfolio .portfolio-overlay h3 {
+     color: #fff;
+     font-size: 24px;
+     font-weight: 400;
+     border-top: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+     display: inline-block;
+     padding: 10px 0; 
+   }
+
+   #OurPortfolio .portfolio-overlay i { 
+     color: #fff;
+     font-size: 24px;
+     position: absolute;
+     right: 20px;
+     bottom:20px;
+   }
+
+   #OurPortfolio .portfolio-thumb:hover .portfolio-overlay {
+    opacity: .75;
+    cursor: pointer;
+
+   }
+
+  #stats {
+    margin: 100px 0;
+    height: 230px;
+  }
+
+ #stats i {
+    font-size: 48px;
+    color: #f3f3f3;
+  }
+
+  #stats h3 {
+  font-weight: 300;
+   color: #f3f3f3; 
+  }
+
+#stats h4 {
+  font-size: 24px;
+  font-weight: 100;
+  color: #f3f3f3; 
+}
+
+#stats .vertical-align {
+    margin: 50px;
+}
+
+
+ #stats .codes {
+  background: url(../imges/stats1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+ }
+
+#stats .codes {
+  background: url(../imges/stats1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+ }
+
+#stats .projects {
+  background: url(../imges/stats2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+ }
+
+#stats .clients {
+  background: url(../imges/stats3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+ }
+
+
+#stats .feedback {
+  background: url(../imges/stats4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+ }
+
+
+
+
+ #quotes {
+
+  background: url(../imges/udemy.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 470px; 
+  }
+
+#quotes h4 {
+   font-weight: 400;
+    font-size: 38px;
+    color:#fff;
+    }
+
+#quotes p{
+   font-weight: 100;
+    font-size: 24px;
+    color:#fff;
+}
+
+#quotes img {
+  width: 100px;
+  height: 100px;
+}
+
+#contact {
+    margin: 50px 0px 0px 50px;
+    padding-bottom: 50px;
+}
+
+ .form-control {
+   height: 45px;
+   padding: 15px;
+   font-size: 16px;
+   color: #8c8c8c;
+   background-color: #f5f5f5;
+   bottom: 1px solid #d1d1d1; 
+   box-shadow: none;
+   font-weight: 300px; 
+ }   
+
+ .form-control:focus {
+  box-shadow: none;
+  color: #793a93;
+  background-color:#793a93;
+  }
+
+.form-control::-moz-placeholder {
+  color: #8c8c8c;
+  opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #8c8c8c;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #8c8c8c;
+}
+
+.form-control:focus:-moz-placeholder {
+  color: #793a93;
+  opacity: 1;
+}
+
+.form-control:focus:-ms-input-placeholder {
+  color: #793a93;
+}
+.form-control:focus:-webkit-input-placeholder {
+  color: #793a93;
+}
+
+
+
+#footer {
+  background: url(../imges/footerbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: #fff;
+}
+
+ #footer .logo {
+    font-size: 48px;
+    color: #f3f3f3;
+    font-weight: 100;
+    border-top: 1px solid  #f3f3f3;
+    border-bottom: 1px solid  #f3f3f3;
+    display: inline-block;
+    margin: 50px 0;
+} 
+
+#footer ul {
+  padding-left: 0;
+  display: block; 
+  margin: -32px;
+    
+
+}
+
+#footer ul li {
+  display: inline;
+}
+
+#footer ul li a:hover {
+  color: #d1a3ff;
+}
+
+#footer ul a {
+    font-size: 30px;
+    padding: 0 10px;
+    color: #f3f3f3;
+}
+
+ .copyrights {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0;
+
+ }
+
+ 
+
+ @media (min-width: 970px) and(max-width: 1170px) {
+   
+   
+.service-item i {
+    float: none;
+    border: none;
+    display: block; 
+   }
+
+  .service-item {
+    text-align: center; 
+   }
+    
+  .service-title {
+    margin-top: 0;
+    margin-left: 0;  
+  }    
+
+ }
+
+ @media (max-width: 750px) {
+
+  
+  .progress-bars {
+    margin-top: 30px; 
+  }
+
+  .google-map {
+    margin-top: 20px
+  }
+
+ }
